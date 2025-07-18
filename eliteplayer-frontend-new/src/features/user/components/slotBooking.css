@@ -1,0 +1,42 @@
+.court-container {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  gap: 20px;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.court-card {
+  background-color: #f8f8f8;
+  border: 2px solid #ddd;
+  border-radius: 10px;
+  padding: 15px;
+  width: 250px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.slot-group {
+  margin-top: 10px;
+}
+
+.slot-btn {
+  display: inline-block;
+  width: 110px;
+  margin: 5px;
+  padding: 8px 12px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.available {
+  background-color: #4caf50;
+  color: white;
+}
+
+.booked {
+  background-color: #e53935;
+  color: white;
+  cursor: not-allowed;
+}

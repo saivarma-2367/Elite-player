@@ -1,0 +1,26 @@
+.Side-Main-div{
+  width: 100px;
+  height: 100vh;
+  background-color: 	#003366;
+  position: fixed;
+  display: flex;
+  flex-direction: column;        /* Stack items vertically */
+  align-items: center;
+}
+
+.sidebar-btn {
+  background-color: transparent;
+  border: none;
+  color: white;
+  text-align: left;
+  padding: 10px 15px;
+  font-size: 14px;
+  width: 100%;
+  cursor: pointer;
+  transition: background 0.2s ease;
+  height: 50px;
+}
+
+.sidebar-btn:hover {
+  background-color: rgba(255, 255, 255, 0.1); /* subtle hover effect */
+}
